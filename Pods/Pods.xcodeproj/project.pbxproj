@@ -55,19 +55,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7ACE6A5ED8DAA4CE7BE0B99353E06F02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5352D432641F0656C90741034E32F31E;
-			remoteInfo = SDWebImage;
-		};
-		FAB44833E187D68E218B9C879FD6D465 /* PBXContainerItemProxy */ = {
+		48A0DAF361968A565B9509D24DD2D71A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CF857C3F7EEFDF0F7822A2733D7FAFD;
 			remoteInfo = PureLayout;
+		};
+		A2786C5D9478E54F5A9F571B7B1E4E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352D432641F0656C90741034E32F31E;
+			remoteInfo = SDWebImage;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -517,8 +517,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				3DEA549B6573F758DD8086E6135B4796 /* PBXTargetDependency */,
-				6687F38974024FCAACC8FB3400BA9A10 /* PBXTargetDependency */,
+				22D522655BE41410036CECBCC1EC30B3 /* PBXTargetDependency */,
+				362DF068C1C53C42B27B5C6A2C67B309 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -598,17 +598,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3DEA549B6573F758DD8086E6135B4796 /* PBXTargetDependency */ = {
+		22D522655BE41410036CECBCC1EC30B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
 			target = 7CF857C3F7EEFDF0F7822A2733D7FAFD /* PureLayout */;
-			targetProxy = FAB44833E187D68E218B9C879FD6D465 /* PBXContainerItemProxy */;
+			targetProxy = 48A0DAF361968A565B9509D24DD2D71A /* PBXContainerItemProxy */;
 		};
-		6687F38974024FCAACC8FB3400BA9A10 /* PBXTargetDependency */ = {
+		362DF068C1C53C42B27B5C6A2C67B309 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
 			target = 5352D432641F0656C90741034E32F31E /* SDWebImage */;
-			targetProxy = 7ACE6A5ED8DAA4CE7BE0B99353E06F02 /* PBXContainerItemProxy */;
+			targetProxy = A2786C5D9478E54F5A9F571B7B1E4E35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
