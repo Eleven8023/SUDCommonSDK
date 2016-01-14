@@ -7,15 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257137501C461C8100B0FD8D /* FZLanTYJW_Xian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2571374C1C461C8100B0FD8D /* FZLanTYJW_Xian.ttf */; };
+		257137511C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2571374D1C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF */; };
+		257137521C461C8100B0FD8D /* FZXiYuanB-M01.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2571374E1C461C8100B0FD8D /* FZXiYuanB-M01.TTF */; };
+		257137531C461C8100B0FD8D /* FZZhunYuanB-M02.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2571374F1C461C8100B0FD8D /* FZZhunYuanB-M02.TTF */; };
+		257137561C4635EC00B0FD8D /* SUDUMSocialShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137551C4635EC00B0FD8D /* SUDUMSocialShare.m */; };
+		257137591C46368500B0FD8D /* SUDTitleViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137581C46368500B0FD8D /* SUDTitleViewLabel.m */; };
+		257137A71C4785A700B0FD8D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 257137921C4785A700B0FD8D /* camera.png */; };
+		257137A81C4785A700B0FD8D /* DNBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137941C4785A700B0FD8D /* DNBrowserCell.m */; };
+		257137A91C4785A700B0FD8D /* DNFullImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137961C4785A700B0FD8D /* DNFullImageButton.m */; };
+		257137AA1C4785A700B0FD8D /* DNPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137981C4785A700B0FD8D /* DNPhotoBrowser.m */; };
+		257137AB1C4785A700B0FD8D /* DNSendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2571379A1C4785A700B0FD8D /* DNSendButton.m */; };
+		257137AC1C4785A700B0FD8D /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2571379C1C4785A700B0FD8D /* MWTapDetectingImageView.m */; };
+		257137AD1C4785A700B0FD8D /* notSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571379D1C4785A700B0FD8D /* notSelected.png */; };
+		257137AE1C4785A700B0FD8D /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571379E1C4785A700B0FD8D /* selected.png */; };
+		257137AF1C4785A700B0FD8D /* SGMAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137A01C4785A700B0FD8D /* SGMAlbumViewController.m */; };
+		257137B01C4785A700B0FD8D /* SGMPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137A21C4785A700B0FD8D /* SGMPhotosViewController.m */; };
+		257137B11C4785A700B0FD8D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137A41C4785A700B0FD8D /* UIColor+Hex.m */; };
+		257137B21C4785A700B0FD8D /* UIView+DNImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137A61C4785A700B0FD8D /* UIView+DNImagePicker.m */; };
+		257137B61C47866600B0FD8D /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257137B51C47866600B0FD8D /* TakePhotoViewController.m */; };
 		25E02FB01C4347EB00C15D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E02FAF1C4347EB00C15D6D /* main.m */; };
 		25E02FB31C4347EB00C15D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E02FB21C4347EB00C15D6D /* AppDelegate.m */; };
 		25E02FB61C4347EB00C15D6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E02FB51C4347EB00C15D6D /* ViewController.m */; };
 		25E02FB91C4347EC00C15D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E02FB71C4347EC00C15D6D /* Main.storyboard */; };
 		25E02FBB1C4347EC00C15D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E02FBA1C4347EC00C15D6D /* Assets.xcassets */; };
 		25E02FBE1C4347EC00C15D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E02FBC1C4347EC00C15D6D /* LaunchScreen.storyboard */; };
+		73D22421633470B40F00052A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1B83F9014FBAD50AEB2FC1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1B83F9014FBAD50AEB2FC1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2571374C1C461C8100B0FD8D /* FZLanTYJW_Xian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLanTYJW_Xian.ttf; sourceTree = "<group>"; };
+		2571374D1C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLanTYJW_Zhun.TTF; sourceTree = "<group>"; };
+		2571374E1C461C8100B0FD8D /* FZXiYuanB-M01.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZXiYuanB-M01.TTF"; sourceTree = "<group>"; };
+		2571374F1C461C8100B0FD8D /* FZZhunYuanB-M02.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZZhunYuanB-M02.TTF"; sourceTree = "<group>"; };
+		257137541C4635EC00B0FD8D /* SUDUMSocialShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDUMSocialShare.h; sourceTree = "<group>"; };
+		257137551C4635EC00B0FD8D /* SUDUMSocialShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUDUMSocialShare.m; sourceTree = "<group>"; };
+		257137571C46368500B0FD8D /* SUDTitleViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDTitleViewLabel.h; sourceTree = "<group>"; };
+		257137581C46368500B0FD8D /* SUDTitleViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUDTitleViewLabel.m; sourceTree = "<group>"; };
+		257137921C4785A700B0FD8D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		257137931C4785A700B0FD8D /* DNBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNBrowserCell.h; sourceTree = "<group>"; };
+		257137941C4785A700B0FD8D /* DNBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNBrowserCell.m; sourceTree = "<group>"; };
+		257137951C4785A700B0FD8D /* DNFullImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNFullImageButton.h; sourceTree = "<group>"; };
+		257137961C4785A700B0FD8D /* DNFullImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNFullImageButton.m; sourceTree = "<group>"; };
+		257137971C4785A700B0FD8D /* DNPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPhotoBrowser.h; sourceTree = "<group>"; };
+		257137981C4785A700B0FD8D /* DNPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPhotoBrowser.m; sourceTree = "<group>"; };
+		257137991C4785A700B0FD8D /* DNSendButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSendButton.h; sourceTree = "<group>"; };
+		2571379A1C4785A700B0FD8D /* DNSendButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSendButton.m; sourceTree = "<group>"; };
+		2571379B1C4785A700B0FD8D /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
+		2571379C1C4785A700B0FD8D /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
+		2571379D1C4785A700B0FD8D /* notSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notSelected.png; sourceTree = "<group>"; };
+		2571379E1C4785A700B0FD8D /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		2571379F1C4785A700B0FD8D /* SGMAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGMAlbumViewController.h; sourceTree = "<group>"; };
+		257137A01C4785A700B0FD8D /* SGMAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGMAlbumViewController.m; sourceTree = "<group>"; };
+		257137A11C4785A700B0FD8D /* SGMPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGMPhotosViewController.h; sourceTree = "<group>"; };
+		257137A21C4785A700B0FD8D /* SGMPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGMPhotosViewController.m; sourceTree = "<group>"; };
+		257137A31C4785A700B0FD8D /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		257137A41C4785A700B0FD8D /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		257137A51C4785A700B0FD8D /* UIView+DNImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DNImagePicker.h"; sourceTree = "<group>"; };
+		257137A61C4785A700B0FD8D /* UIView+DNImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DNImagePicker.m"; sourceTree = "<group>"; };
+		257137B41C47866600B0FD8D /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		257137B51C47866600B0FD8D /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
+		259A0BFC5D71ECD8497EA745 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		25E02FAB1C4347EB00C15D6D /* UMSocialShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMSocialShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E02FAF1C4347EB00C15D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25E02FB11C4347EB00C15D6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +79,7 @@
 		25E02FBA1C4347EC00C15D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25E02FBD1C4347EC00C15D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25E02FBF1C4347EC00C15D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71769B695AC700D7101B105 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +87,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73D22421633470B40F00052A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2571374A1C46143800B0FD8D /* UMSocialShareMethod */ = {
+			isa = PBXGroup;
+			children = (
+				257137541C4635EC00B0FD8D /* SUDUMSocialShare.h */,
+				257137551C4635EC00B0FD8D /* SUDUMSocialShare.m */,
+			);
+			name = UMSocialShareMethod;
+			path = UMSocialShare/UMSocialShareMethod;
+			sourceTree = "<group>";
+		};
+		2571374B1C461C8100B0FD8D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2571374C1C461C8100B0FD8D /* FZLanTYJW_Xian.ttf */,
+				2571374D1C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF */,
+				2571374E1C461C8100B0FD8D /* FZXiYuanB-M01.TTF */,
+				2571374F1C461C8100B0FD8D /* FZZhunYuanB-M02.TTF */,
+			);
+			name = Resource;
+			path = UMSocialShare/Resource;
+			sourceTree = "<group>";
+		};
+		257137911C4785A700B0FD8D /* SUDPhotosPick */ = {
+			isa = PBXGroup;
+			children = (
+				257137921C4785A700B0FD8D /* camera.png */,
+				257137931C4785A700B0FD8D /* DNBrowserCell.h */,
+				257137941C4785A700B0FD8D /* DNBrowserCell.m */,
+				257137951C4785A700B0FD8D /* DNFullImageButton.h */,
+				257137961C4785A700B0FD8D /* DNFullImageButton.m */,
+				257137971C4785A700B0FD8D /* DNPhotoBrowser.h */,
+				257137981C4785A700B0FD8D /* DNPhotoBrowser.m */,
+				257137991C4785A700B0FD8D /* DNSendButton.h */,
+				2571379A1C4785A700B0FD8D /* DNSendButton.m */,
+				2571379B1C4785A700B0FD8D /* MWTapDetectingImageView.h */,
+				2571379C1C4785A700B0FD8D /* MWTapDetectingImageView.m */,
+				2571379D1C4785A700B0FD8D /* notSelected.png */,
+				2571379E1C4785A700B0FD8D /* selected.png */,
+				2571379F1C4785A700B0FD8D /* SGMAlbumViewController.h */,
+				257137A01C4785A700B0FD8D /* SGMAlbumViewController.m */,
+				257137A11C4785A700B0FD8D /* SGMPhotosViewController.h */,
+				257137A21C4785A700B0FD8D /* SGMPhotosViewController.m */,
+				257137A31C4785A700B0FD8D /* UIColor+Hex.h */,
+				257137A41C4785A700B0FD8D /* UIColor+Hex.m */,
+				257137A51C4785A700B0FD8D /* UIView+DNImagePicker.h */,
+				257137A61C4785A700B0FD8D /* UIView+DNImagePicker.m */,
+			);
+			name = SUDPhotosPick;
+			path = UMSocialShare/SUDPhotosPick;
+			sourceTree = "<group>";
+		};
+		257137B31C47864B00B0FD8D /* PickPhotoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				257137B41C47866600B0FD8D /* TakePhotoViewController.h */,
+				257137B51C47866600B0FD8D /* TakePhotoViewController.m */,
+			);
+			path = PickPhotoDemo;
+			sourceTree = "<group>";
+		};
 		25E02FA21C4347EB00C15D6D = {
 			isa = PBXGroup;
 			children = (
+				257137911C4785A700B0FD8D /* SUDPhotosPick */,
+				2571374B1C461C8100B0FD8D /* Resource */,
+				2571374A1C46143800B0FD8D /* UMSocialShareMethod */,
 				25E02FAD1C4347EB00C15D6D /* UMSocialShare */,
 				25E02FAC1C4347EB00C15D6D /* Products */,
+				F93BB5EF023AD0831F5D7BC1 /* Pods */,
+				E641A89431D2383FD7F7C41E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +178,13 @@
 		25E02FAD1C4347EB00C15D6D /* UMSocialShare */ = {
 			isa = PBXGroup;
 			children = (
+				257137B31C47864B00B0FD8D /* PickPhotoDemo */,
 				25E02FB11C4347EB00C15D6D /* AppDelegate.h */,
 				25E02FB21C4347EB00C15D6D /* AppDelegate.m */,
 				25E02FB41C4347EB00C15D6D /* ViewController.h */,
 				25E02FB51C4347EB00C15D6D /* ViewController.m */,
+				257137571C46368500B0FD8D /* SUDTitleViewLabel.h */,
+				257137581C46368500B0FD8D /* SUDTitleViewLabel.m */,
 				25E02FB71C4347EC00C15D6D /* Main.storyboard */,
 				25E02FBA1C4347EC00C15D6D /* Assets.xcassets */,
 				25E02FBC1C4347EC00C15D6D /* LaunchScreen.storyboard */,
@@ -79,6 +202,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E641A89431D2383FD7F7C41E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B83F9014FBAD50AEB2FC1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F93BB5EF023AD0831F5D7BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A71769B695AC700D7101B105 /* Pods.debug.xcconfig */,
+				259A0BFC5D71ECD8497EA745 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25E02FC21C4347EC00C15D6D /* Build configuration list for PBXNativeTarget "UMSocialShare" */;
 			buildPhases = (
+				95F54FA516A0F86740152330 /* Check Pods Manifest.lock */,
 				25E02FA71C4347EB00C15D6D /* Sources */,
 				25E02FA81C4347EB00C15D6D /* Frameworks */,
 				25E02FA91C4347EB00C15D6D /* Resources */,
+				72D7893EFC6765AAA35CAAFF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +252,7 @@
 				TargetAttributes = {
 					25E02FAA1C4347EB00C15D6D = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Y6J58CUHLQ;
 					};
 				};
 			};
@@ -120,6 +263,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 25E02FA21C4347EB00C15D6D;
 			productRefGroup = 25E02FAC1C4347EB00C15D6D /* Products */;
@@ -137,12 +281,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E02FBE1C4347EC00C15D6D /* LaunchScreen.storyboard in Resources */,
+				257137531C461C8100B0FD8D /* FZZhunYuanB-M02.TTF in Resources */,
+				257137511C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF in Resources */,
 				25E02FBB1C4347EC00C15D6D /* Assets.xcassets in Resources */,
+				257137501C461C8100B0FD8D /* FZLanTYJW_Xian.ttf in Resources */,
+				257137521C461C8100B0FD8D /* FZXiYuanB-M01.TTF in Resources */,
+				257137A71C4785A700B0FD8D /* camera.png in Resources */,
 				25E02FB91C4347EC00C15D6D /* Main.storyboard in Resources */,
+				257137AE1C4785A700B0FD8D /* selected.png in Resources */,
+				257137AD1C4785A700B0FD8D /* notSelected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72D7893EFC6765AAA35CAAFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F54FA516A0F86740152330 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25E02FA71C4347EB00C15D6D /* Sources */ = {
@@ -150,8 +334,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E02FB61C4347EB00C15D6D /* ViewController.m in Sources */,
+				257137A91C4785A700B0FD8D /* DNFullImageButton.m in Sources */,
+				257137AB1C4785A700B0FD8D /* DNSendButton.m in Sources */,
+				257137561C4635EC00B0FD8D /* SUDUMSocialShare.m in Sources */,
+				257137AA1C4785A700B0FD8D /* DNPhotoBrowser.m in Sources */,
+				257137A81C4785A700B0FD8D /* DNBrowserCell.m in Sources */,
 				25E02FB31C4347EB00C15D6D /* AppDelegate.m in Sources */,
 				25E02FB01C4347EB00C15D6D /* main.m in Sources */,
+				257137AC1C4785A700B0FD8D /* MWTapDetectingImageView.m in Sources */,
+				257137591C46368500B0FD8D /* SUDTitleViewLabel.m in Sources */,
+				257137B61C47866600B0FD8D /* TakePhotoViewController.m in Sources */,
+				257137AF1C4785A700B0FD8D /* SGMAlbumViewController.m in Sources */,
+				257137B01C4785A700B0FD8D /* SGMPhotosViewController.m in Sources */,
+				257137B21C4785A700B0FD8D /* UIView+DNImagePicker.m in Sources */,
+				257137B11C4785A700B0FD8D /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +457,36 @@
 		};
 		25E02FC31C4347EC00C15D6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71769B695AC700D7101B105 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Twitter",
+				);
 				INFOPLIST_FILE = UMSocialShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/AlipayShare",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Twitter",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.UMSocialShare";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -272,10 +494,36 @@
 		};
 		25E02FC41C4347EC00C15D6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259A0BFC5D71ECD8497EA745 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Twitter",
+				);
 				INFOPLIST_FILE = UMSocialShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/AlipayShare",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Twitter",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.UMSocialShare";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -300,6 +548,7 @@
 				25E02FC41C4347EC00C15D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,13 @@
 //
 
 #import "AppDelegate.h"
-
+#import "UMSocial.h"
+#import "UMSocialFacebookHandler.h"
+#import "UMSocialWechatHandler.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialSinaSSOHandler.h"
+#import "UMSocialSinaHandler.h"
+#define UmengAppkey @"55c0882567e58eb51f003bf8"
 @interface AppDelegate ()
 
 @end
@@ -17,8 +23,44 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self setUpShareSetting];
     return YES;
 }
+
+- (void)setUpShareSetting
+{
+    [UMSocialData setAppKey:UmengAppkey];
+    [UMSocialData openLog:YES];
+    //设置微信AppId，设置分享url，默认使用友盟的网址
+    [UMSocialWechatHandler setWXAppId:@"wx4e8d9c94793810c8"
+                            appSecret:@"f7619d4a6a295699c9abb28aae97f1cc"
+                                  url:@""];
+    
+    //打开新浪微博的SSO开关
+    [UMSocialSinaHandler openSSOWithRedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    [UMSocialSinaSSOHandler openNewSinaSSOWithRedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    
+    //设置分享到QQ空间的应用Id，和分享url 链接
+    [UMSocialQQHandler setQQWithAppId:@"1104724271"
+                               appKey:@"WstwTVHFJTADsApI"
+                                  url:@"http://www.umeng.com/social"];
+    
+    //设置facebook应用ID，和分享纯文字用到的url地址
+    [UMSocialFacebookHandler setFacebookAppID:@"981466701918971"
+                         shareFacebookWithURL:@"http://www.umeng.com/social"];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return [UMSocialSnsService handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [UMSocialSnsService handleOpenURL:url];
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

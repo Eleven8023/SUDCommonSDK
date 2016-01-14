@@ -1,0 +1,18 @@
+PODS:
+  - PureLayout (3.0.1)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - UMengSocial (4.4)
+
+DEPENDENCIES:
+  - PureLayout
+  - SDWebImage
+  - UMengSocial (~> 4.3)
+
+SPEC CHECKSUMS:
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  UMengSocial: aba7296602310385114d82c255539a7bef3b7ab0
+
+COCOAPODS: 0.38.2
