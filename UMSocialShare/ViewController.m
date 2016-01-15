@@ -11,6 +11,7 @@
 #import "SUDTitleViewLabel.h"
 #import "SUDUMSocialShare.h"
 #import "TakePhotoViewController.h"
+#import "VideoViewController.h"
 @interface ViewController ()
 
 @property (nonatomic, strong) UIView *blueView;
@@ -38,7 +39,7 @@
 {
     self.view = [UIView new];
     self.view.userInteractionEnabled = YES;
-    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:self.blueView];
     [self.view addSubview:self.redView];
@@ -87,6 +88,9 @@
     if (!_redView) {
         _redView = [UIView newAutoLayoutView];
         _redView.backgroundColor = [UIColor redColor];
+        _redView.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tapAction = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(videoPlayer:)];
+        [_redView addGestureRecognizer:tapAction];
     }
     return _redView;
 }
@@ -197,6 +201,15 @@
     TakePhotoViewController *takePhotoVC = [[TakePhotoViewController alloc] init];
     [self.navigationController pushViewController:takePhotoVC animated:YES];
 }
+
+- (void)videoPlayer:(UITapGestureRecognizer *)sender
+{
+    VideoViewController *videoVC = [[VideoViewController alloc] init];
+    [self presentViewController:videoVC animated:NO completion:^{
+        
+    }];
+}
+
 
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253067311C48F2C600A44853 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067301C48F2C600A44853 /* VideoViewController.m */; };
+		253067521C48F4AD00A44853 /* genduo-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067341C48F4AD00A44853 /* genduo-white@2x.png */; };
+		253067531C48F4AD00A44853 /* genduo-white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067351C48F4AD00A44853 /* genduo-white@3x.png */; };
+		253067541C48F4AD00A44853 /* kr-video-player-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067361C48F4AD00A44853 /* kr-video-player-close@2x.png */; };
+		253067551C48F4AD00A44853 /* kr-video-player-close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067371C48F4AD00A44853 /* kr-video-player-close@3x.png */; };
+		253067561C48F4AD00A44853 /* kr-video-player-fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067381C48F4AD00A44853 /* kr-video-player-fullscreen@2x.png */; };
+		253067571C48F4AD00A44853 /* kr-video-player-fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067391C48F4AD00A44853 /* kr-video-player-fullscreen@3x.png */; };
+		253067581C48F4AD00A44853 /* kr-video-player-pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530673A1C48F4AD00A44853 /* kr-video-player-pause@2x.png */; };
+		253067591C48F4AD00A44853 /* kr-video-player-pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530673B1C48F4AD00A44853 /* kr-video-player-pause@3x.png */; };
+		2530675A1C48F4AD00A44853 /* kr-video-player-play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530673C1C48F4AD00A44853 /* kr-video-player-play@2x.png */; };
+		2530675B1C48F4AD00A44853 /* kr-video-player-play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530673D1C48F4AD00A44853 /* kr-video-player-play@3x.png */; };
+		2530675C1C48F4AD00A44853 /* kr-video-player-point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530673E1C48F4AD00A44853 /* kr-video-player-point@2x.png */; };
+		2530675D1C48F4AD00A44853 /* kr-video-player-point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530673F1C48F4AD00A44853 /* kr-video-player-point@3x.png */; };
+		2530675E1C48F4AD00A44853 /* kr-video-player-shrinkscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067401C48F4AD00A44853 /* kr-video-player-shrinkscreen@2x.png */; };
+		2530675F1C48F4AD00A44853 /* kr-video-player-shrinkscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067411C48F4AD00A44853 /* kr-video-player-shrinkscreen@3x.png */; };
+		253067601C48F4AD00A44853 /* max@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067421C48F4AD00A44853 /* max@2x.png */; };
+		253067611C48F4AD00A44853 /* max@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067431C48F4AD00A44853 /* max@3x.png */; };
+		253067621C48F4AD00A44853 /* min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067441C48F4AD00A44853 /* min@2x.png */; };
+		253067631C48F4AD00A44853 /* min@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067451C48F4AD00A44853 /* min@3x.png */; };
+		253067641C48F4AD00A44853 /* return-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067461C48F4AD00A44853 /* return-white@2x.png */; };
+		253067651C48F4AD00A44853 /* return-white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067471C48F4AD00A44853 /* return-white@3x.png */; };
+		253067661C48F4AD00A44853 /* zan-red-video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067481C48F4AD00A44853 /* zan-red-video@2x.png */; };
+		253067671C48F4AD00A44853 /* zan-red-video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067491C48F4AD00A44853 /* zan-red-video@3x.png */; };
+		253067681C48F4AD00A44853 /* zan-video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530674A1C48F4AD00A44853 /* zan-video@2x.png */; };
+		253067691C48F4AD00A44853 /* zan-video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2530674B1C48F4AD00A44853 /* zan-video@3x.png */; };
+		2530676A1C48F4AD00A44853 /* KrVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2530674E1C48F4AD00A44853 /* KrVideoPlayerController.m */; };
+		2530676B1C48F4AD00A44853 /* KrVideoPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067501C48F4AD00A44853 /* KrVideoPlayerControlView.m */; };
+		2530676C1C48F4AD00A44853 /* READEME.md in Sources */ = {isa = PBXBuildFile; fileRef = 253067511C48F4AD00A44853 /* READEME.md */; };
 		257137501C461C8100B0FD8D /* FZLanTYJW_Xian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2571374C1C461C8100B0FD8D /* FZLanTYJW_Xian.ttf */; };
 		257137511C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2571374D1C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF */; };
 		257137521C461C8100B0FD8D /* FZXiYuanB-M01.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2571374E1C461C8100B0FD8D /* FZXiYuanB-M01.TTF */; };
@@ -37,6 +65,37 @@
 
 /* Begin PBXFileReference section */
 		0A1B83F9014FBAD50AEB2FC1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2530672F1C48F2C600A44853 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		253067301C48F2C600A44853 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		253067341C48F4AD00A44853 /* genduo-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "genduo-white@2x.png"; sourceTree = "<group>"; };
+		253067351C48F4AD00A44853 /* genduo-white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "genduo-white@3x.png"; sourceTree = "<group>"; };
+		253067361C48F4AD00A44853 /* kr-video-player-close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-close@2x.png"; sourceTree = "<group>"; };
+		253067371C48F4AD00A44853 /* kr-video-player-close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-close@3x.png"; sourceTree = "<group>"; };
+		253067381C48F4AD00A44853 /* kr-video-player-fullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-fullscreen@2x.png"; sourceTree = "<group>"; };
+		253067391C48F4AD00A44853 /* kr-video-player-fullscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-fullscreen@3x.png"; sourceTree = "<group>"; };
+		2530673A1C48F4AD00A44853 /* kr-video-player-pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-pause@2x.png"; sourceTree = "<group>"; };
+		2530673B1C48F4AD00A44853 /* kr-video-player-pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-pause@3x.png"; sourceTree = "<group>"; };
+		2530673C1C48F4AD00A44853 /* kr-video-player-play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-play@2x.png"; sourceTree = "<group>"; };
+		2530673D1C48F4AD00A44853 /* kr-video-player-play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-play@3x.png"; sourceTree = "<group>"; };
+		2530673E1C48F4AD00A44853 /* kr-video-player-point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-point@2x.png"; sourceTree = "<group>"; };
+		2530673F1C48F4AD00A44853 /* kr-video-player-point@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-point@3x.png"; sourceTree = "<group>"; };
+		253067401C48F4AD00A44853 /* kr-video-player-shrinkscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-shrinkscreen@2x.png"; sourceTree = "<group>"; };
+		253067411C48F4AD00A44853 /* kr-video-player-shrinkscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-shrinkscreen@3x.png"; sourceTree = "<group>"; };
+		253067421C48F4AD00A44853 /* max@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "max@2x.png"; sourceTree = "<group>"; };
+		253067431C48F4AD00A44853 /* max@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "max@3x.png"; sourceTree = "<group>"; };
+		253067441C48F4AD00A44853 /* min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "min@2x.png"; sourceTree = "<group>"; };
+		253067451C48F4AD00A44853 /* min@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "min@3x.png"; sourceTree = "<group>"; };
+		253067461C48F4AD00A44853 /* return-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "return-white@2x.png"; sourceTree = "<group>"; };
+		253067471C48F4AD00A44853 /* return-white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "return-white@3x.png"; sourceTree = "<group>"; };
+		253067481C48F4AD00A44853 /* zan-red-video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zan-red-video@2x.png"; sourceTree = "<group>"; };
+		253067491C48F4AD00A44853 /* zan-red-video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zan-red-video@3x.png"; sourceTree = "<group>"; };
+		2530674A1C48F4AD00A44853 /* zan-video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zan-video@2x.png"; sourceTree = "<group>"; };
+		2530674B1C48F4AD00A44853 /* zan-video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zan-video@3x.png"; sourceTree = "<group>"; };
+		2530674D1C48F4AD00A44853 /* KrVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KrVideoPlayerController.h; sourceTree = "<group>"; };
+		2530674E1C48F4AD00A44853 /* KrVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KrVideoPlayerController.m; sourceTree = "<group>"; };
+		2530674F1C48F4AD00A44853 /* KrVideoPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KrVideoPlayerControlView.h; sourceTree = "<group>"; };
+		253067501C48F4AD00A44853 /* KrVideoPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KrVideoPlayerControlView.m; sourceTree = "<group>"; };
+		253067511C48F4AD00A44853 /* READEME.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = READEME.md; sourceTree = "<group>"; };
 		2571374C1C461C8100B0FD8D /* FZLanTYJW_Xian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLanTYJW_Xian.ttf; sourceTree = "<group>"; };
 		2571374D1C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLanTYJW_Zhun.TTF; sourceTree = "<group>"; };
 		2571374E1C461C8100B0FD8D /* FZXiYuanB-M01.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZXiYuanB-M01.TTF"; sourceTree = "<group>"; };
@@ -94,6 +153,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253066EE1C48F06B00A44853 /* SUDVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				253067321C48F4AD00A44853 /* KrVideoPlayer */,
+			);
+			name = SUDVideoPlayer;
+			path = UMSocialShare/SUDVideoPlayer;
+			sourceTree = "<group>";
+		};
+		2530672E1C48F2B200A44853 /* VideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2530672F1C48F2C600A44853 /* VideoViewController.h */,
+				253067301C48F2C600A44853 /* VideoViewController.m */,
+			);
+			path = VideoDemo;
+			sourceTree = "<group>";
+		};
+		253067321C48F4AD00A44853 /* KrVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				253067331C48F4AD00A44853 /* Assets */,
+				2530674C1C48F4AD00A44853 /* Classes */,
+				253067511C48F4AD00A44853 /* READEME.md */,
+			);
+			path = KrVideoPlayer;
+			sourceTree = "<group>";
+		};
+		253067331C48F4AD00A44853 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				253067341C48F4AD00A44853 /* genduo-white@2x.png */,
+				253067351C48F4AD00A44853 /* genduo-white@3x.png */,
+				253067361C48F4AD00A44853 /* kr-video-player-close@2x.png */,
+				253067371C48F4AD00A44853 /* kr-video-player-close@3x.png */,
+				253067381C48F4AD00A44853 /* kr-video-player-fullscreen@2x.png */,
+				253067391C48F4AD00A44853 /* kr-video-player-fullscreen@3x.png */,
+				2530673A1C48F4AD00A44853 /* kr-video-player-pause@2x.png */,
+				2530673B1C48F4AD00A44853 /* kr-video-player-pause@3x.png */,
+				2530673C1C48F4AD00A44853 /* kr-video-player-play@2x.png */,
+				2530673D1C48F4AD00A44853 /* kr-video-player-play@3x.png */,
+				2530673E1C48F4AD00A44853 /* kr-video-player-point@2x.png */,
+				2530673F1C48F4AD00A44853 /* kr-video-player-point@3x.png */,
+				253067401C48F4AD00A44853 /* kr-video-player-shrinkscreen@2x.png */,
+				253067411C48F4AD00A44853 /* kr-video-player-shrinkscreen@3x.png */,
+				253067421C48F4AD00A44853 /* max@2x.png */,
+				253067431C48F4AD00A44853 /* max@3x.png */,
+				253067441C48F4AD00A44853 /* min@2x.png */,
+				253067451C48F4AD00A44853 /* min@3x.png */,
+				253067461C48F4AD00A44853 /* return-white@2x.png */,
+				253067471C48F4AD00A44853 /* return-white@3x.png */,
+				253067481C48F4AD00A44853 /* zan-red-video@2x.png */,
+				253067491C48F4AD00A44853 /* zan-red-video@3x.png */,
+				2530674A1C48F4AD00A44853 /* zan-video@2x.png */,
+				2530674B1C48F4AD00A44853 /* zan-video@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2530674C1C48F4AD00A44853 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2530674D1C48F4AD00A44853 /* KrVideoPlayerController.h */,
+				2530674E1C48F4AD00A44853 /* KrVideoPlayerController.m */,
+				2530674F1C48F4AD00A44853 /* KrVideoPlayerControlView.h */,
+				253067501C48F4AD00A44853 /* KrVideoPlayerControlView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2571374A1C46143800B0FD8D /* UMSocialShareMethod */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +286,7 @@
 		25E02FA21C4347EB00C15D6D = {
 			isa = PBXGroup;
 			children = (
+				253066EE1C48F06B00A44853 /* SUDVideoPlayer */,
 				257137911C4785A700B0FD8D /* SUDPhotosPick */,
 				2571374B1C461C8100B0FD8D /* Resource */,
 				2571374A1C46143800B0FD8D /* UMSocialShareMethod */,
@@ -178,6 +308,7 @@
 		25E02FAD1C4347EB00C15D6D /* UMSocialShare */ = {
 			isa = PBXGroup;
 			children = (
+				2530672E1C48F2B200A44853 /* VideoDemo */,
 				257137B31C47864B00B0FD8D /* PickPhotoDemo */,
 				25E02FB11C4347EB00C15D6D /* AppDelegate.h */,
 				25E02FB21C4347EB00C15D6D /* AppDelegate.m */,
@@ -280,16 +411,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253067601C48F4AD00A44853 /* max@2x.png in Resources */,
+				2530675D1C48F4AD00A44853 /* kr-video-player-point@3x.png in Resources */,
+				253067521C48F4AD00A44853 /* genduo-white@2x.png in Resources */,
+				253067641C48F4AD00A44853 /* return-white@2x.png in Resources */,
 				25E02FBE1C4347EC00C15D6D /* LaunchScreen.storyboard in Resources */,
+				253067631C48F4AD00A44853 /* min@3x.png in Resources */,
 				257137531C461C8100B0FD8D /* FZZhunYuanB-M02.TTF in Resources */,
+				253067671C48F4AD00A44853 /* zan-red-video@3x.png in Resources */,
 				257137511C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF in Resources */,
+				2530675A1C48F4AD00A44853 /* kr-video-player-play@2x.png in Resources */,
+				2530675E1C48F4AD00A44853 /* kr-video-player-shrinkscreen@2x.png in Resources */,
+				253067681C48F4AD00A44853 /* zan-video@2x.png in Resources */,
+				253067661C48F4AD00A44853 /* zan-red-video@2x.png in Resources */,
 				25E02FBB1C4347EC00C15D6D /* Assets.xcassets in Resources */,
+				2530675F1C48F4AD00A44853 /* kr-video-player-shrinkscreen@3x.png in Resources */,
 				257137501C461C8100B0FD8D /* FZLanTYJW_Xian.ttf in Resources */,
+				253067591C48F4AD00A44853 /* kr-video-player-pause@3x.png in Resources */,
 				257137521C461C8100B0FD8D /* FZXiYuanB-M01.TTF in Resources */,
+				253067581C48F4AD00A44853 /* kr-video-player-pause@2x.png in Resources */,
 				257137A71C4785A700B0FD8D /* camera.png in Resources */,
+				2530675C1C48F4AD00A44853 /* kr-video-player-point@2x.png in Resources */,
+				253067611C48F4AD00A44853 /* max@3x.png in Resources */,
 				25E02FB91C4347EC00C15D6D /* Main.storyboard in Resources */,
+				253067691C48F4AD00A44853 /* zan-video@3x.png in Resources */,
+				253067541C48F4AD00A44853 /* kr-video-player-close@2x.png in Resources */,
+				253067561C48F4AD00A44853 /* kr-video-player-fullscreen@2x.png in Resources */,
+				253067551C48F4AD00A44853 /* kr-video-player-close@3x.png in Resources */,
+				2530675B1C48F4AD00A44853 /* kr-video-player-play@3x.png in Resources */,
+				253067531C48F4AD00A44853 /* genduo-white@3x.png in Resources */,
 				257137AE1C4785A700B0FD8D /* selected.png in Resources */,
+				253067621C48F4AD00A44853 /* min@2x.png in Resources */,
+				253067571C48F4AD00A44853 /* kr-video-player-fullscreen@3x.png in Resources */,
 				257137AD1C4785A700B0FD8D /* notSelected.png in Resources */,
+				253067651C48F4AD00A44853 /* return-white@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +489,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E02FB61C4347EB00C15D6D /* ViewController.m in Sources */,
+				253067311C48F2C600A44853 /* VideoViewController.m in Sources */,
+				2530676C1C48F4AD00A44853 /* READEME.md in Sources */,
 				257137A91C4785A700B0FD8D /* DNFullImageButton.m in Sources */,
 				257137AB1C4785A700B0FD8D /* DNSendButton.m in Sources */,
 				257137561C4635EC00B0FD8D /* SUDUMSocialShare.m in Sources */,
@@ -345,8 +502,10 @@
 				257137591C46368500B0FD8D /* SUDTitleViewLabel.m in Sources */,
 				257137B61C47866600B0FD8D /* TakePhotoViewController.m in Sources */,
 				257137AF1C4785A700B0FD8D /* SGMAlbumViewController.m in Sources */,
+				2530676A1C48F4AD00A44853 /* KrVideoPlayerController.m in Sources */,
 				257137B01C4785A700B0FD8D /* SGMPhotosViewController.m in Sources */,
 				257137B21C4785A700B0FD8D /* UIView+DNImagePicker.m in Sources */,
+				2530676B1C48F4AD00A44853 /* KrVideoPlayerControlView.m in Sources */,
 				257137B11C4785A700B0FD8D /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
