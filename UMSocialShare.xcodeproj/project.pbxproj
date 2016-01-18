@@ -35,6 +35,24 @@
 		2530676A1C48F4AD00A44853 /* KrVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2530674E1C48F4AD00A44853 /* KrVideoPlayerController.m */; };
 		2530676B1C48F4AD00A44853 /* KrVideoPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067501C48F4AD00A44853 /* KrVideoPlayerControlView.m */; };
 		2530676C1C48F4AD00A44853 /* READEME.md in Sources */ = {isa = PBXBuildFile; fileRef = 253067511C48F4AD00A44853 /* READEME.md */; };
+		2530676F1C49F65F00A44853 /* VideoShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2530676D1C49F65F00A44853 /* VideoShareView.m */; };
+		2530677A1C4A05C800A44853 /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067701C4A05C800A44853 /* facebook@2x.png */; };
+		2530677B1C4A05C800A44853 /* facebook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067711C4A05C800A44853 /* facebook@3x.png */; };
+		2530677C1C4A05C800A44853 /* fenxiangdao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067721C4A05C800A44853 /* fenxiangdao@2x.png */; };
+		2530677D1C4A05C800A44853 /* fenxiangdao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067731C4A05C800A44853 /* fenxiangdao@3x.png */; };
+		2530677E1C4A05C800A44853 /* pengyouquan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067741C4A05C800A44853 /* pengyouquan@2x.png */; };
+		2530677F1C4A05C800A44853 /* pengyouquan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067751C4A05C800A44853 /* pengyouquan@3x.png */; };
+		253067801C4A05C800A44853 /* weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067761C4A05C800A44853 /* weibo@2x.png */; };
+		253067811C4A05C800A44853 /* weibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067771C4A05C800A44853 /* weibo@3x.png */; };
+		253067821C4A05C800A44853 /* weichat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067781C4A05C800A44853 /* weichat@2x.png */; };
+		253067831C4A05C800A44853 /* weichat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253067791C4A05C800A44853 /* weichat@3x.png */; };
+		253067A21C4CCB9100A44853 /* SUDMJAnimationFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067A11C4CCB9100A44853 /* SUDMJAnimationFooter.m */; };
+		253067A51C4CCCD100A44853 /* SUDMJAnimationHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067A41C4CCCD100A44853 /* SUDMJAnimationHeader.m */; };
+		253067A81C4CCDEB00A44853 /* SUDMJAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067A71C4CCDEB00A44853 /* SUDMJAutoFooter.m */; };
+		253067AB1C4CCE5C00A44853 /* SUDMJBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067AA1C4CCE5C00A44853 /* SUDMJBackFooter.m */; };
+		253067AE1C4CCEE500A44853 /* SUDMJHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067AD1C4CCEE500A44853 /* SUDMJHeader.m */; };
+		253067B21C4CCF9300A44853 /* MJRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067B11C4CCF9300A44853 /* MJRefreshTableViewController.m */; };
+		253067B51C4CD47800A44853 /* MJRefreshGifTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253067B41C4CD47800A44853 /* MJRefreshGifTableViewController.m */; };
 		257137501C461C8100B0FD8D /* FZLanTYJW_Xian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2571374C1C461C8100B0FD8D /* FZLanTYJW_Xian.ttf */; };
 		257137511C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2571374D1C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF */; };
 		257137521C461C8100B0FD8D /* FZXiYuanB-M01.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2571374E1C461C8100B0FD8D /* FZXiYuanB-M01.TTF */; };
@@ -96,6 +114,32 @@
 		2530674F1C48F4AD00A44853 /* KrVideoPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KrVideoPlayerControlView.h; sourceTree = "<group>"; };
 		253067501C48F4AD00A44853 /* KrVideoPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KrVideoPlayerControlView.m; sourceTree = "<group>"; };
 		253067511C48F4AD00A44853 /* READEME.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = READEME.md; sourceTree = "<group>"; };
+		2530676D1C49F65F00A44853 /* VideoShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoShareView.m; sourceTree = "<group>"; };
+		2530676E1C49F65F00A44853 /* VideoShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoShareView.h; sourceTree = "<group>"; };
+		253067701C4A05C800A44853 /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
+		253067711C4A05C800A44853 /* facebook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@3x.png"; sourceTree = "<group>"; };
+		253067721C4A05C800A44853 /* fenxiangdao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fenxiangdao@2x.png"; sourceTree = "<group>"; };
+		253067731C4A05C800A44853 /* fenxiangdao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fenxiangdao@3x.png"; sourceTree = "<group>"; };
+		253067741C4A05C800A44853 /* pengyouquan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pengyouquan@2x.png"; sourceTree = "<group>"; };
+		253067751C4A05C800A44853 /* pengyouquan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pengyouquan@3x.png"; sourceTree = "<group>"; };
+		253067761C4A05C800A44853 /* weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo@2x.png"; sourceTree = "<group>"; };
+		253067771C4A05C800A44853 /* weibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo@3x.png"; sourceTree = "<group>"; };
+		253067781C4A05C800A44853 /* weichat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weichat@2x.png"; sourceTree = "<group>"; };
+		253067791C4A05C800A44853 /* weichat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weichat@3x.png"; sourceTree = "<group>"; };
+		253067A01C4CCB9100A44853 /* SUDMJAnimationFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDMJAnimationFooter.h; sourceTree = "<group>"; };
+		253067A11C4CCB9100A44853 /* SUDMJAnimationFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUDMJAnimationFooter.m; sourceTree = "<group>"; };
+		253067A31C4CCCD100A44853 /* SUDMJAnimationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDMJAnimationHeader.h; sourceTree = "<group>"; };
+		253067A41C4CCCD100A44853 /* SUDMJAnimationHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUDMJAnimationHeader.m; sourceTree = "<group>"; };
+		253067A61C4CCDEB00A44853 /* SUDMJAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDMJAutoFooter.h; sourceTree = "<group>"; };
+		253067A71C4CCDEB00A44853 /* SUDMJAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUDMJAutoFooter.m; sourceTree = "<group>"; };
+		253067A91C4CCE5C00A44853 /* SUDMJBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDMJBackFooter.h; sourceTree = "<group>"; };
+		253067AA1C4CCE5C00A44853 /* SUDMJBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUDMJBackFooter.m; sourceTree = "<group>"; };
+		253067AC1C4CCEE500A44853 /* SUDMJHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDMJHeader.h; sourceTree = "<group>"; };
+		253067AD1C4CCEE500A44853 /* SUDMJHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUDMJHeader.m; sourceTree = "<group>"; };
+		253067B01C4CCF9300A44853 /* MJRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshTableViewController.h; sourceTree = "<group>"; };
+		253067B11C4CCF9300A44853 /* MJRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshTableViewController.m; sourceTree = "<group>"; };
+		253067B31C4CD47800A44853 /* MJRefreshGifTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifTableViewController.h; sourceTree = "<group>"; };
+		253067B41C4CD47800A44853 /* MJRefreshGifTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifTableViewController.m; sourceTree = "<group>"; };
 		2571374C1C461C8100B0FD8D /* FZLanTYJW_Xian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLanTYJW_Xian.ttf; sourceTree = "<group>"; };
 		2571374D1C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLanTYJW_Zhun.TTF; sourceTree = "<group>"; };
 		2571374E1C461C8100B0FD8D /* FZXiYuanB-M01.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZXiYuanB-M01.TTF"; sourceTree = "<group>"; };
@@ -165,6 +209,8 @@
 		2530672E1C48F2B200A44853 /* VideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2530676D1C49F65F00A44853 /* VideoShareView.m */,
+				2530676E1C49F65F00A44853 /* VideoShareView.h */,
 				2530672F1C48F2C600A44853 /* VideoViewController.h */,
 				253067301C48F2C600A44853 /* VideoViewController.m */,
 			);
@@ -184,6 +230,16 @@
 		253067331C48F4AD00A44853 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				253067701C4A05C800A44853 /* facebook@2x.png */,
+				253067711C4A05C800A44853 /* facebook@3x.png */,
+				253067721C4A05C800A44853 /* fenxiangdao@2x.png */,
+				253067731C4A05C800A44853 /* fenxiangdao@3x.png */,
+				253067741C4A05C800A44853 /* pengyouquan@2x.png */,
+				253067751C4A05C800A44853 /* pengyouquan@3x.png */,
+				253067761C4A05C800A44853 /* weibo@2x.png */,
+				253067771C4A05C800A44853 /* weibo@3x.png */,
+				253067781C4A05C800A44853 /* weichat@2x.png */,
+				253067791C4A05C800A44853 /* weichat@3x.png */,
 				253067341C48F4AD00A44853 /* genduo-white@2x.png */,
 				253067351C48F4AD00A44853 /* genduo-white@3x.png */,
 				253067361C48F4AD00A44853 /* kr-video-player-close@2x.png */,
@@ -221,6 +277,35 @@
 				253067501C48F4AD00A44853 /* KrVideoPlayerControlView.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		2530679F1C4CC90E00A44853 /* SUDMJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				253067A01C4CCB9100A44853 /* SUDMJAnimationFooter.h */,
+				253067A11C4CCB9100A44853 /* SUDMJAnimationFooter.m */,
+				253067A31C4CCCD100A44853 /* SUDMJAnimationHeader.h */,
+				253067A41C4CCCD100A44853 /* SUDMJAnimationHeader.m */,
+				253067A61C4CCDEB00A44853 /* SUDMJAutoFooter.h */,
+				253067A71C4CCDEB00A44853 /* SUDMJAutoFooter.m */,
+				253067A91C4CCE5C00A44853 /* SUDMJBackFooter.h */,
+				253067AA1C4CCE5C00A44853 /* SUDMJBackFooter.m */,
+				253067AC1C4CCEE500A44853 /* SUDMJHeader.h */,
+				253067AD1C4CCEE500A44853 /* SUDMJHeader.m */,
+			);
+			name = SUDMJRefresh;
+			path = UMSocialShare/SUDMJRefresh;
+			sourceTree = "<group>";
+		};
+		253067AF1C4CCF7A00A44853 /* RedefineMJRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				253067B01C4CCF9300A44853 /* MJRefreshTableViewController.h */,
+				253067B11C4CCF9300A44853 /* MJRefreshTableViewController.m */,
+				253067B31C4CD47800A44853 /* MJRefreshGifTableViewController.h */,
+				253067B41C4CD47800A44853 /* MJRefreshGifTableViewController.m */,
+			);
+			path = RedefineMJRefreshDemo;
 			sourceTree = "<group>";
 		};
 		2571374A1C46143800B0FD8D /* UMSocialShareMethod */ = {
@@ -286,6 +371,7 @@
 		25E02FA21C4347EB00C15D6D = {
 			isa = PBXGroup;
 			children = (
+				2530679F1C4CC90E00A44853 /* SUDMJRefresh */,
 				253066EE1C48F06B00A44853 /* SUDVideoPlayer */,
 				257137911C4785A700B0FD8D /* SUDPhotosPick */,
 				2571374B1C461C8100B0FD8D /* Resource */,
@@ -308,6 +394,7 @@
 		25E02FAD1C4347EB00C15D6D /* UMSocialShare */ = {
 			isa = PBXGroup;
 			children = (
+				253067AF1C4CCF7A00A44853 /* RedefineMJRefreshDemo */,
 				2530672E1C48F2B200A44853 /* VideoDemo */,
 				257137B31C47864B00B0FD8D /* PickPhotoDemo */,
 				25E02FB11C4347EB00C15D6D /* AppDelegate.h */,
@@ -413,16 +500,22 @@
 			files = (
 				253067601C48F4AD00A44853 /* max@2x.png in Resources */,
 				2530675D1C48F4AD00A44853 /* kr-video-player-point@3x.png in Resources */,
+				253067801C4A05C800A44853 /* weibo@2x.png in Resources */,
 				253067521C48F4AD00A44853 /* genduo-white@2x.png in Resources */,
 				253067641C48F4AD00A44853 /* return-white@2x.png in Resources */,
 				25E02FBE1C4347EC00C15D6D /* LaunchScreen.storyboard in Resources */,
 				253067631C48F4AD00A44853 /* min@3x.png in Resources */,
 				257137531C461C8100B0FD8D /* FZZhunYuanB-M02.TTF in Resources */,
 				253067671C48F4AD00A44853 /* zan-red-video@3x.png in Resources */,
+				2530677D1C4A05C800A44853 /* fenxiangdao@3x.png in Resources */,
 				257137511C461C8100B0FD8D /* FZLanTYJW_Zhun.TTF in Resources */,
 				2530675A1C48F4AD00A44853 /* kr-video-player-play@2x.png in Resources */,
 				2530675E1C48F4AD00A44853 /* kr-video-player-shrinkscreen@2x.png in Resources */,
+				2530677F1C4A05C800A44853 /* pengyouquan@3x.png in Resources */,
+				253067821C4A05C800A44853 /* weichat@2x.png in Resources */,
+				2530677E1C4A05C800A44853 /* pengyouquan@2x.png in Resources */,
 				253067681C48F4AD00A44853 /* zan-video@2x.png in Resources */,
+				253067811C4A05C800A44853 /* weibo@3x.png in Resources */,
 				253067661C48F4AD00A44853 /* zan-red-video@2x.png in Resources */,
 				25E02FBB1C4347EC00C15D6D /* Assets.xcassets in Resources */,
 				2530675F1C48F4AD00A44853 /* kr-video-player-shrinkscreen@3x.png in Resources */,
@@ -441,6 +534,10 @@
 				2530675B1C48F4AD00A44853 /* kr-video-player-play@3x.png in Resources */,
 				253067531C48F4AD00A44853 /* genduo-white@3x.png in Resources */,
 				257137AE1C4785A700B0FD8D /* selected.png in Resources */,
+				2530677C1C4A05C800A44853 /* fenxiangdao@2x.png in Resources */,
+				253067831C4A05C800A44853 /* weichat@3x.png in Resources */,
+				2530677A1C4A05C800A44853 /* facebook@2x.png in Resources */,
+				2530677B1C4A05C800A44853 /* facebook@3x.png in Resources */,
 				253067621C48F4AD00A44853 /* min@2x.png in Resources */,
 				253067571C48F4AD00A44853 /* kr-video-player-fullscreen@3x.png in Resources */,
 				257137AD1C4785A700B0FD8D /* notSelected.png in Resources */,
@@ -491,20 +588,28 @@
 				25E02FB61C4347EB00C15D6D /* ViewController.m in Sources */,
 				253067311C48F2C600A44853 /* VideoViewController.m in Sources */,
 				2530676C1C48F4AD00A44853 /* READEME.md in Sources */,
+				253067A51C4CCCD100A44853 /* SUDMJAnimationHeader.m in Sources */,
+				253067B21C4CCF9300A44853 /* MJRefreshTableViewController.m in Sources */,
 				257137A91C4785A700B0FD8D /* DNFullImageButton.m in Sources */,
 				257137AB1C4785A700B0FD8D /* DNSendButton.m in Sources */,
 				257137561C4635EC00B0FD8D /* SUDUMSocialShare.m in Sources */,
 				257137AA1C4785A700B0FD8D /* DNPhotoBrowser.m in Sources */,
 				257137A81C4785A700B0FD8D /* DNBrowserCell.m in Sources */,
+				253067A21C4CCB9100A44853 /* SUDMJAnimationFooter.m in Sources */,
+				2530676F1C49F65F00A44853 /* VideoShareView.m in Sources */,
 				25E02FB31C4347EB00C15D6D /* AppDelegate.m in Sources */,
+				253067A81C4CCDEB00A44853 /* SUDMJAutoFooter.m in Sources */,
 				25E02FB01C4347EB00C15D6D /* main.m in Sources */,
 				257137AC1C4785A700B0FD8D /* MWTapDetectingImageView.m in Sources */,
+				253067AB1C4CCE5C00A44853 /* SUDMJBackFooter.m in Sources */,
 				257137591C46368500B0FD8D /* SUDTitleViewLabel.m in Sources */,
 				257137B61C47866600B0FD8D /* TakePhotoViewController.m in Sources */,
+				253067AE1C4CCEE500A44853 /* SUDMJHeader.m in Sources */,
 				257137AF1C4785A700B0FD8D /* SGMAlbumViewController.m in Sources */,
 				2530676A1C48F4AD00A44853 /* KrVideoPlayerController.m in Sources */,
 				257137B01C4785A700B0FD8D /* SGMPhotosViewController.m in Sources */,
 				257137B21C4785A700B0FD8D /* UIView+DNImagePicker.m in Sources */,
+				253067B51C4CD47800A44853 /* MJRefreshGifTableViewController.m in Sources */,
 				2530676B1C48F4AD00A44853 /* KrVideoPlayerControlView.m in Sources */,
 				257137B11C4785A700B0FD8D /* UIColor+Hex.m in Sources */,
 			);

@@ -7,14 +7,13 @@
 //
 
 #import "KrVideoPlayerController.h"
-#import "KrVideoPlayerControlView.h"
 #import <AVFoundation/AVFoundation.h>
 
 static const CGFloat kVideoPlayerControllerAnimationTimeinterval = 0.3f;
 
 @interface KrVideoPlayerController()
 
-@property (nonatomic, strong) KrVideoPlayerControlView *videoControl;
+
 @property (nonatomic, strong) UIView *movieBackgroundView;
 @property (nonatomic, assign) BOOL isFullscreenMode;
 @property (nonatomic, assign) CGRect originFrame;
@@ -114,6 +113,9 @@ static const CGFloat kVideoPlayerControllerAnimationTimeinterval = 0.3f;
     [self.videoControl.progressSlider addTarget:self action:@selector(progressSliderTouchBegan:) forControlEvents:UIControlEventTouchDown];
     [self.videoControl.progressSlider addTarget:self action:@selector(progressSliderTouchEnded:) forControlEvents:UIControlEventTouchUpInside];
     [self.videoControl.progressSlider addTarget:self action:@selector(progressSliderTouchEnded:) forControlEvents:UIControlEventTouchUpOutside];
+    [self.videoControl.returnBtn addTarget:self action:@selector(returnForPage:) forControlEvents:UIControlEventTouchUpInside];
+    [self.videoControl.loveBtn addTarget:self action:@selector(praiseAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.videoControl.moreBtn addTarget:self action:@selector(moreBtnAction:) forControlEvents:UIControlEventTouchUpInside];
     [self setProgressSliderMaxMinValues];
     [self monitorVideoPlayback];
 }
@@ -188,6 +190,23 @@ static const CGFloat kVideoPlayerControllerAnimationTimeinterval = 0.3f;
     [self backOrientationPortrait];
     
 }
+
+#pragma mark - topbar的点击事件
+- (void)returnForPage:(UIButton *)sender
+{
+    [self.topBarDelegate returnFrontPage];
+}
+
+- (void)praiseAction:(UIButton *)sender
+{
+    [self.topBarDelegate clickPraiseAction];
+}
+
+- (void)moreBtnAction:(UIButton *)sender
+{
+    [self.topBarDelegate clickMoreBtnAction];
+}
+
 #pragma mark -- 设备旋转监听 改变视频全屏状态显示方向 --
 //监听设备旋转方向
 - (void)ListeningRotating{

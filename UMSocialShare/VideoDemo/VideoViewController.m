@@ -7,12 +7,14 @@
 //
 
 #import "VideoViewController.h"
-
+#import "VideoShareView.h"
 #import "KrVideoPlayerController.h"
 
-@interface VideoViewController ()
+@interface VideoViewController ()<topBarActionDelegate, shareToPlatform>
 
 @property (nonatomic, strong) KrVideoPlayerController *videoController;
+
+@property (nonatomic, strong) VideoShareView *shareView;
 
 @end
 
@@ -41,6 +43,8 @@
         CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
         self.videoController = [[KrVideoPlayerController alloc] initWithFrame:CGRectMake(0, 0, screenHeight, width)];
         self.videoController.view.center = self.view.center;
+        self.videoController.topBarDelegate = self;
+        self.videoController.videoControl.titleLabel.text = @"大水杯的自娱自乐生活";
         self.videoController.view.transform = CGAffineTransformMakeRotation(M_PI / 2);
         __weak typeof(self)weakSelf = self;
         //        [self.videoController setDimissCompleteBlock:^{
@@ -72,6 +76,30 @@
 {
     return NO;
 }
+#pragma mark -返回上一界面 并且结束视频播放
+- (void)returnFrontPage
+{
+    [self dismissViewControllerAnimated:YES completion:^{
+        [self.videoController stop];
+    }];
+}
+
+- (void)clickMoreBtnAction
+{
+    _shareView = [[VideoShareView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width)];
+    _shareView.shareDelegate = self;
+    [self.view addSubview:_shareView];
+}
+
+- (void)startPlayer
+{
+    [self.videoController play];
+    [_shareView removeFromSuperview];
+}                             
+
+
+
+
 
 /*
 #pragma mark - Navigation

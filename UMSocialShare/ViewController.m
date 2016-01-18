@@ -12,6 +12,8 @@
 #import "SUDUMSocialShare.h"
 #import "TakePhotoViewController.h"
 #import "VideoViewController.h"
+#import "MJRefreshTableViewController.h"
+#import "MJRefreshGifTableViewController.h"
 @interface ViewController ()
 
 @property (nonatomic, strong) UIView *blueView;
@@ -100,6 +102,9 @@
     if (!_greenView) {
         _greenView = [UIView newAutoLayoutView];
         _greenView.backgroundColor = [UIColor greenColor];
+        _greenView.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tapAction = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(MJRefreshAction:)];
+        [_greenView addGestureRecognizer:tapAction];
     }
     return _greenView;
 }
@@ -109,6 +114,9 @@
     if (!_yellowView) {
         _yellowView = [UIView newAutoLayoutView];
         _yellowView.backgroundColor = [UIColor yellowColor];
+        _yellowView.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tapAction = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(MJRefreshGifAction:)];
+        [_yellowView addGestureRecognizer:tapAction];
     }
     return _yellowView;
 }
@@ -162,28 +170,23 @@
 #pragma mark -shareAction 
 - (void)shareToFacebook:(UIButton *)sender
 {
-    
     [SUDUMSocialShare shareVideoTofacebook:@"http://baobab.cdn.wandoujia.com/14447196790651.mp4" shareImageUrl:@"http://img.wdjimg.com/image/video/434dae98fe6bd62d0478465a447bb117_0_0.jpeg" shareTitle:@"大水杯" shareSubtitle:@"浪漫口香糖之恋" currentController:self shareCompletion:^{
-        
         
     }];
 }
 
 - (void)shareToWeichat:(UIButton *)sender
 {
-    
     [SUDUMSocialShare shareVideoToWechat:@"http://baobab.cdn.wandoujia.com/14447196790651.mp4" shareImageUrl:@"http://img.wdjimg.com/image/video/434dae98fe6bd62d0478465a447bb117_0_0.jpeg" shareTitle:@"大水杯" shareSubtitle:@"浪漫口香糖之恋" currentController:self shareCompletion:^{
         UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:@"分享到" message:@"微信" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
         [alterView show];
         
     }];
-    
 }
 
 - (void)shareTofriend:(UIButton *)sender
 {
     [SUDUMSocialShare shareVideoToWechatFriend:@"http://baobab.cdn.wandoujia.com/14447196790651.mp4" shareImageUrl:@"http://img.wdjimg.com/image/video/434dae98fe6bd62d0478465a447bb117_0_0.jpeg" shareTitle:@"大水杯" shareSubtitle:@"三十七万贰仟人" currentController:self shareCompletion:^{
-        
         
     }];
 }
@@ -191,7 +194,6 @@
 - (void)shareToSina:(UIButton *)sender
 {
     [SUDUMSocialShare shareVideoToSina:@"http://baobab.cdn.wandoujia.com/14447196790651.mp4" shareImageUrl:@"http://img.wdjimg.com/image/video/434dae98fe6bd62d0478465a447bb117_0_0.jpeg" shareTitle:@"大水杯" shareSubtitle:@"浪漫口香糖之恋" currentController:self shareCompletion:^{
-        
         
     }];
 }
@@ -210,7 +212,17 @@
     }];
 }
 
+- (void)MJRefreshAction:(UITapGestureRecognizer *)sender
+{
+    MJRefreshTableViewController *mjrereshVC = [[MJRefreshTableViewController alloc] init];
+    [self.navigationController pushViewController:mjrereshVC animated:YES];
+}
 
+- (void)MJRefreshGifAction:(UITapGestureRecognizer *)sender
+{
+    MJRefreshGifTableViewController *mjGifVC = [[MJRefreshGifTableViewController alloc] init];
+    [self.navigationController pushViewController:mjGifVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

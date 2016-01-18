@@ -1,4 +1,5 @@
 PODS:
+  - MJRefresh (3.1.0)
   - PureLayout (3.0.1)
   - SDWebImage (3.7.4):
     - SDWebImage/Core (= 3.7.4)
@@ -6,11 +7,13 @@ PODS:
   - UMengSocial (4.4)
 
 DEPENDENCIES:
+  - MJRefresh
   - PureLayout
   - SDWebImage
   - UMengSocial (~> 4.3)
 
 SPEC CHECKSUMS:
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
   SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
   UMengSocial: aba7296602310385114d82c255539a7bef3b7ab0
